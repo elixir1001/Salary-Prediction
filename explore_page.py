@@ -84,4 +84,4 @@ def show_explore_page():
         """#### Mean Salary Based on Experience"""
     )
     data = df.groupby(["YearsCodePro"])["Salary"].mean().sort_values(ascending=True)
-    st.line_chat(data)
+    st.line_chart(data)

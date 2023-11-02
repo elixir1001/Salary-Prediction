@@ -59,4 +59,6 @@ def show_predict_page():
         salary = regressor.predict(X)
         st.subheader(f"The estimated Salary is ${salary[0]:.2f}")
 
-    st.write(np.__version__)
+    st.write(
+        """##### Minor Project for Fifth Semester Bachelor's of Computer Application."""
+    )

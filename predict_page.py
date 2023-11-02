@@ -17,6 +17,9 @@ le_education = data["le_education"]
 
 def show_predict_page():
     st.title("Software Developer Salary Prediction")
+    st.write(
+        """###### Minor Project for Fifth Semester Bachelor's of Computer Application."""
+    )
     st.write("""### We need some information for predicting the salary""")
 
     countries = {
@@ -60,5 +63,5 @@ def show_predict_page():
         st.subheader(f"The estimated Salary is ${salary[0]:.2f}")
 
     st.write(
-        """##### Minor Project for Fifth Semester Bachelor's of Computer Application."""
+        """Piyush Gautam"""
     )

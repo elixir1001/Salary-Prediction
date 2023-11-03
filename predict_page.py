@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
+# Loading the picked model
 def load_model():
     with open('saved_steps.pkl', 'rb') as file:
         data = pickle.load(file)
